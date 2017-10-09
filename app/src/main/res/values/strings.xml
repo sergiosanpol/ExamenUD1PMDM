@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ExamenUD1PMDM</string>
+    <string name="texto_factorial">Escribe un número para calcular su factorial</string>
+    <string name="calcular">Calcular</string>
+</resources>

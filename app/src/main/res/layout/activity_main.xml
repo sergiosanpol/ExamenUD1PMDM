@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.hlc.diurno.examenud1pmdm.MainActivity">
+
+    <!--Texto que nos indica que debemos hacer. Tiene un tamaño de 20dp y está centrado sobre la pantalla, ademas de adaptarse al contenido-->
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_factorial"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+    <!--Caja donde colocamos el número a carcular. Se adapta al contenido, tiene un tamaño de 10, y solo acepta la introducción de números-->
+    <EditText
+        android:id="@+id/numero_factorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number|numberSigned" />
+
+    <!--El botón que inicia la activity de Resultado-->
+    <Button
+        android:id="@+id/calcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calcular" />
+
+</LinearLayout>
